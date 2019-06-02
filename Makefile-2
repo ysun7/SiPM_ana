@@ -1,0 +1,14 @@
+all: event
+
+event: main.o EventIO.o
+	g++ main.o EventIO.o -o event
+
+main.o: main.cc
+	g++ -c main.cc
+
+EventIO.o: EventIO.cc
+	g++ -c EventIO.cc
+
+clean:
+	rm -rf *o event
+

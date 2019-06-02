@@ -1,0 +1,3 @@
+all:
+	g++ main.cc EventIO.cc DarkRate.cc -o DarkRate.o
+

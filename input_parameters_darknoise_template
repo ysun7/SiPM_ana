@@ -1,0 +1,21 @@
+sipm	3							#SiPM to be analyzed
+nruns	100							#Number of runs for each biasv
+nevents	100							#Number of events in each run
+timewindow	2000000						#Time window in ns
+threshold	0.35						#Threshold in mV
+biasv_start	23						#Bias voltage in V
+biasv_end	26						#Bias voltage in V
+input_dir       /home/sunyujing/new_desktop/c++study/SiPM_analysis_software/SiPM123_20150410/c3/
+output_dir      /home/sunyujing/new_desktop/c++study/SiPM_analysis_software/
+input_label     cryostat_dr_pgtrigger_sipm123
+output_label    cryostat_dr_pgtrigger_sipm3
+skip	9			#Number of events to be skipped in case of external noise pick-up
+23	0	15		#List all the problematic events to be skipped
+26	7	9		#in the format of (biasv run event)
+23	6	35
+25	30	15
+25	1	32
+25	5	35
+23	1	32
+25	2	15
+25	0	32

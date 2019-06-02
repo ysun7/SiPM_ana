@@ -1,0 +1,47 @@
+sipm	1	
+nruns	100
+nevents	100
+timewindow	20000
+triggertime	-9880
+searchstarttime	-9380
+samplerate	20
+threshold	0.35
+biasv_start	24
+biasv_end	28
+input_dir       /home/sunyujing/new_desktop/c++study/SiPM_analysis_software_SenSL/Jsipm1_20161011/c3/
+output_dir      /home/sunyujing/new_desktop/c++study/SiPM_analysis_software/
+input_label     cryostat_ap_sipm1stdtrigger_sipm1
+output_label    cryostat_ap_sipm1trigger_sipm1_20161011_afterpulse_std
+skip	0
+43	21	35
+43	35	66
+43	35	67
+43	35	68
+43	45	70
+43	45	71
+43	45	72
+43	68	97
+43	86	71
+44	40	28
+44	40	29
+44	62	53
+44	79	67
+44	84	66
+44	94	35
+44	96	86
+45	24	76
+45	33	95
+45	33	97
+45	33	98
+45	64	72
+45	93	64
+45	93	65
+46	57	91
+46	60	15
+46	97	72
+47	60	69
+47	82	83
+47	87	47
+47	87	59
+47	89	48
+47	90	47

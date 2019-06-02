@@ -1,0 +1,21 @@
+sipm	3
+nruns	100
+nevents	100
+timewindow	2000000
+threshold	0.35
+biasv_start	23
+biasv_end	26
+input_dir       /home/sunyujing/new_desktop/c++study/SiPM_analysis_software/SiPM123_20150410/c3/
+output_dir      /home/sunyujing/new_desktop/c++study/SiPM_analysis_software/
+input_label     cryostat_dr_pgtrigger_sipm123
+output_label    cryostat_dr_pgtrigger_sipm3_test1
+skip	9
+23	0	15
+26	7	9
+23	6	35
+25	30	15
+25	1	32
+25	5	35
+23	1	32
+25	2	15
+25	0	32
